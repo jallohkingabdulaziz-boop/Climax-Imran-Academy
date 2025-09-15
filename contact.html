@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us – Climax Imran Academy</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f9f9f9;
+      margin: 0;
+      padding: 0;
+      color: #333;
+    }
+
+    header {
+      background-color: skyblue;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+    }
+
+    header img {
+      height: 120px;
+      display: block;
+      margin: 0 auto 10px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+
+    nav {
+      background-color: #004080;
+    }
+
+    nav ul {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    nav ul li {
+      margin: 0;
+    }
+
+    nav ul li a {
+      display: block;
+      padding: 14px 20px;
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav ul li a:hover,
+    nav ul li a.active {
+      background-color: lightcoral;
+    }
+
+    main {
+      max-width: 1000px;
+      margin: 20px auto;
+      padding: 20px;
+      background-color: white;
+      border-radius: 10px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+
+    section h2 {
+      color: skyblue;
+      border-bottom: 2px solid #004080;
+      padding-bottom: 5px;
+      margin-top: 20px;
+    }
+
+    section h3 {
+      color: darkslategray;
+      margin-top: 20px;
+    }
+
+    p {
+      line-height: 1.6;
+      margin-bottom: 10px;
+    }
+
+    form {
+      margin-top: 15px;
+    }
+
+    input, textarea, button {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border-radius: 5px;
+      border: 1px solid #ccc;
+      box-sizing: border-box;
+    }
+
+    button {
+      background-color: darkblue;
+      color: white;
+      font-weight: bold;
+      border: none;
+      cursor: pointer;
+      transition: background 0.3s;
+    }
+
+    button:hover {
+      background-color: #004080;
+    }
+
+    footer {
+      text-align: center;
+      padding: 15px;
+      background-color: #004080;
+      color: white;
+      margin-top: 20px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="images/logo.png" alt="School Logo">
+    <h1>Climax Imran Academy</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="academics.html">Academics</a></li>
+        <li><a href="admissions.html">Admissions</a></li>            
+        <li><a href="news.html">News & Events</a></li>
+        <li><a href="students.html">Students</a></li>
+        <li><a href="parents.html">Parents</a></li>
+        <li><a href="gallery.html">Gallery</a></li>                                                
+        <li><a href="contact.html" class="active">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section class="intro">
+      <h2>Contact Us</h2>
+      <p><strong>Address:</strong> Upper Railway Line, Rokel Western Area Rural, Freetown, Sierra Leone</p>
+      <p><strong>Phone:</strong> +232 75 198 111 / +232 33 619 209</p>
+      <p><strong>Email:</strong> kamaraimran123@gmail.com</p>
+
+      <h3>Send Us a Message</h3>
+      <form onsubmit="alert('Your message has been sent!'); return false;">
+        <input type="text" placeholder="Your Name" required>
+        <input type="email" placeholder="Your Email" required>
+        <textarea placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Climax Imran Academy. All rights reserved.</p>
+    <p>Website designed and developed by The Sage (AAJromeo). Contact: +232 75 922351 / +232 99 578459 | Email: jallohkingabdulaziz@gmail.com</p>
+  </footer>
+</body>
+</html>
